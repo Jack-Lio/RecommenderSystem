@@ -1,0 +1,17 @@
+DATASET:
+  TRAIN_SET: "./datasets/train_set.csv"
+  TEST_SET: "./datasets/test_set.csv"
+  MOVIE_SET: "./datasets/movies.csv"
+
+PATH:
+  MODEL_PATH: ""
+  CONFIG_PATH: ""
+
+
+MODEL:
+  MODEL_NAME: ""
+  TRAINING: True
+  PRE_CALCULATE_SIMILARITY: True
+  TEST_SAVE: True
+
+
