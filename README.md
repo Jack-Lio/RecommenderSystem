@@ -7,6 +7,8 @@ A recommenderSystem implemented for MovieLens Datasets
 - datasets          # contains the datasets
     - train_set.csv 
     - test_set.csv
+    - movies.csv
+    - ...
 - refs 
 main.py             # the main function 
 CF.py               # Collaborative Filtering 
