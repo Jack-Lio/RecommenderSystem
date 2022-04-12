@@ -15,14 +15,14 @@ class CB:
     Top-K recommendation.
     '''
 
-    def __init__(self, _cfg = cfg, n_rec_movie = 50,_save_model=True):
+    def __init__(self, _cfg = cfg, _save_model=True):
         '''
         Initiate the Content based CF model.
         :param _cfg: the configuration of the model.
         :param n_rec_movie: the number of top-recommendation movies for each user.
         :param save_model: whether to save the model.
         '''
-        self.n_rec_movie = n_rec_movie
+        self.n_rec_movie = _cfg.MODEL.N_MOVIE
         self._save_model = _save_model
         self.cfg = _cfg
 

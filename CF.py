@@ -15,7 +15,7 @@ class CF:
     Top-K recommendation.
     """
 
-    def __init__(self, _cfg = cfg,k_sim_user = 35, n_rec_movie = 50,_save_model=True):
+    def __init__(self, _cfg = cfg,_save_model=True):
         """
         Initiate the User-User CF model.
         :param _cfg: the configuration of the model.
@@ -23,8 +23,8 @@ class CF:
         :param n_rec_movie: the number of top-recommendation movies for each user.
         :param save_model: whether to save the model.
         """
-        self.k = k_sim_user
-        self.n_rec_movie = n_rec_movie
+        self.k = _cfg.MODEL.K
+        self.n_rec_movie = _cfg.MODEL.N_MOVIE
         self._save_model = _save_model
         self.cfg = _cfg
 

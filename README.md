@@ -1,6 +1,10 @@
 # RecommenderSystem
 A recommenderSystem implemented for MovieLens Datasets
 
+## preparation
+
+before running  the  project , you should firstly install all the packages that were imported in all the "*.py" files. 
+
 ## file structure:
 ```
 - checkpoints       # checkpoint files

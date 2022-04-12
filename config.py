@@ -21,7 +21,8 @@ _C.MODEL.MODEL_NAME = "CF"
 _C.MODEL.TRAINING = True
 _C.MODEL.PRE_CALCULATE_SIMILARITY = True
 _C.MODEL.TEST_SAVE = True # save the test result or not 
-
+_C.MODEL.K = 35           # the number of most similar users to consider for each user.
+_C.MODEL.N_MOVIE = 50     # the number of top-recommendation movies for each user.
 
 # model config as global config
 cfg = _C
