@@ -55,3 +55,12 @@ train time for the two models:
     - train: 11 m 20 s 
     - test: 41 s
     - test result: @ SSE: 67.45523445640697
+
+
+## references
+github codes: https://github.com/fuxuemingzhu/MovieLens-Recommender 
+
+the blog of upper: https://blog.csdn.net/fuxuemingzhu/article/details/82888897
+
+another blog: https://www.cnblogs.com/cpaulyz/p/14128902.html
+
