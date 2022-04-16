@@ -89,6 +89,12 @@ class Dataset:
         """
         return (self.ratings_test,self.user_map,self.movie_map,self.movie_type_features)
 
+    def get_movie_name_by_movie_id(self,movie_id):
+        """
+        get the movie name by movie id
+        """
+        return self.movies[self.movies['movieId'] == movie_id]['title'].values[0]
+
 
 
 if __name__ == '__main__':

@@ -5,6 +5,7 @@
 /datasets/  
 /refs/
 /checkpoints/
+/simple_version/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
